@@ -1,3 +1,5 @@
+import Papa from 'papaparse'
+
 type Callback = () => void;
 
 const useFetch = () => {
@@ -7,6 +9,7 @@ const useFetch = () => {
     const result = await reader.read()
     const decoder = new TextDecoder('utf-8');
     const csvString = decoder.decode(result.value!)
+    const {data} = Papa.parse()
   };
 
 
