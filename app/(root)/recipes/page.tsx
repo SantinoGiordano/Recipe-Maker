@@ -5,7 +5,7 @@ export default function Recipes() {
       <>
         {food.map((data) => (
           <div key={data.id} className="pl-10 p-6">
-            <h3 className="text-3xl font-bold">{data.name}</h3>
+            <p className="text-3xl font-bold">{data.name}</p>
             <div>
               <strong className="text-base">Ingredients:</strong>
               <p className="text-sm text-gray-500 max-w-[600px]">
