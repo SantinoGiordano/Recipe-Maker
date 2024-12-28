@@ -15,10 +15,10 @@ const Navbar: React.FC = () => {
           <Link href="/about" className="font-thin text-2xl text-white hover:text-gray-300">
            About
           </Link>
-          <Link href="/recipes"  className="font-thin text-2xl text-white hover:text-gray-300">
+          <Link href="/recipes" className="font-thin text-2xl text-white hover:text-gray-300">
            Recipes
           </Link>
-          <Link href="/contact"  className="font-thin text-2xl text-white hover:text-gray-300">
+          <Link href="/contact" className="font-thin text-2xl text-white hover:text-gray-300">
             Contact
           </Link>
         </div>
