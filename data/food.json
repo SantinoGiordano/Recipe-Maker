@@ -1,0 +1,236 @@
+[
+  {
+    "id": "recipe_1",
+    "name": "Spaghetti Bolognese",
+    "ingredients": [
+      "200g spaghetti",
+      "300g ground beef",
+      "1 onion",
+      "2 cloves garlic",
+      "1 can of diced tomatoes",
+      "2 tbsp tomato paste",
+      "1 tsp dried oregano",
+      "Salt and pepper to taste"
+    ],
+    "steps": [
+      {
+        "step_number": 1,
+        "description": "Cook the spaghetti according to the package instructions."
+      },
+      {
+        "step_number": 2,
+        "description": "In a large pan, sauté the diced onion and garlic until soft."
+      },
+      {
+        "step_number": 3,
+        "description": "Add the ground beef and cook until browned."
+      },
+      {
+        "step_number": 4,
+        "description": "Stir in the tomato paste, diced tomatoes, oregano, salt, and pepper."
+      },
+      {
+        "step_number": 5,
+        "description": "Simmer the sauce for 20 minutes, stirring occasionally."
+      },
+      {
+        "step_number": 6,
+        "description": "Serve the sauce over the cooked spaghetti."
+      }
+    ]
+  },
+  {
+    "id": "recipe_2",
+    "name": "Caesar Salad",
+    "ingredients": [
+      "1 romaine lettuce",
+      "50g parmesan cheese",
+      "Croutons",
+      "2 tbsp Caesar dressing",
+      "1 tsp lemon juice",
+      "Salt and pepper to taste"
+    ],
+    "steps": [
+      {
+        "step_number": 1,
+        "description": "Wash and chop the romaine lettuce into bite-sized pieces."
+      },
+      {
+        "step_number": 2,
+        "description": "In a large bowl, combine the lettuce, croutons, and parmesan cheese."
+      },
+      {
+        "step_number": 3,
+        "description": "Drizzle with Caesar dressing and lemon juice."
+      },
+      {
+        "step_number": 4,
+        "description": "Toss everything together until evenly coated."
+      },
+      {
+        "step_number": 5,
+        "description": "Season with salt and pepper to taste, then serve."
+      }
+    ]
+  },
+  {
+    "id": "recipe_3",
+    "name": "Chicken Curry",
+    "ingredients": [
+      "500g chicken breast",
+      "1 onion",
+      "2 cloves garlic",
+      "1 tbsp curry powder",
+      "400ml coconut milk",
+      "1 tbsp olive oil",
+      "Salt and pepper to taste"
+    ],
+    "steps": [
+      {
+        "step_number": 1,
+        "description": "Cut the chicken breast into bite-sized cubes."
+      },
+      {
+        "step_number": 2,
+        "description": "Heat the olive oil in a pan and sauté the onion and garlic until softened."
+      },
+      {
+        "step_number": 3,
+        "description": "Add the curry powder and cook for another minute."
+      },
+      {
+        "step_number": 4,
+        "description": "Add the chicken cubes and cook until browned."
+      },
+      {
+        "step_number": 5,
+        "description": "Pour in the coconut milk, season with salt and pepper, and simmer for 20 minutes."
+      }
+    ]
+  },
+  {
+    "id": "recipe_4",
+    "name": "Margarita Pizza",
+    "ingredients": [
+      "1 pizza dough",
+      "200g mozzarella cheese",
+      "1 cup tomato sauce",
+      "Fresh basil leaves",
+      "Olive oil for drizzling",
+      "Salt to taste"
+    ],
+    "steps": [
+      {
+        "step_number": 1,
+        "description": "Preheat the oven to 220°C (425°F)."
+      },
+      {
+        "step_number": 2,
+        "description": "Roll out the pizza dough on a floured surface."
+      },
+      {
+        "step_number": 3,
+        "description": "Spread the tomato sauce evenly over the dough."
+      },
+      {
+        "step_number": 4,
+        "description": "Top with mozzarella cheese and drizzle with olive oil."
+      },
+      {
+        "step_number": 5,
+        "description": "Bake in the oven for 10-12 minutes until the crust is golden."
+      },
+      {
+        "step_number": 6,
+        "description": "Top with fresh basil leaves and a pinch of salt before serving."
+      }
+    ]
+  },
+  {
+    "id": "recipe_5",
+    "name": "Vegetable Stir Fry",
+    "ingredients": [
+      "1 cup broccoli florets",
+      "1 bell pepper",
+      "1 carrot",
+      "2 tbsp soy sauce",
+      "1 tbsp sesame oil",
+      "1 clove garlic",
+      "Salt and pepper to taste"
+    ],
+    "steps": [
+      {
+        "step_number": 1,
+        "description": "Chop the vegetables into bite-sized pieces."
+      },
+      {
+        "step_number": 2,
+        "description": "Heat the sesame oil in a wok over medium-high heat."
+      },
+      {
+        "step_number": 3,
+        "description": "Add the garlic and cook for 1 minute until fragrant."
+      },
+      {
+        "step_number": 4,
+        "description": "Add the broccoli, bell pepper, and carrot, and stir-fry for 5 minutes."
+      },
+      {
+        "step_number": 5,
+        "description": "Pour in the soy sauce, season with salt and pepper, and stir for another 3 minutes."
+      },
+      {
+        "step_number": 6,
+        "description": "Serve hot as a side dish or with rice."
+      }
+    ]
+  },
+  {
+    "id": "recipe_6",
+    "name": "Chocolate Chip Cookies",
+    "ingredients": [
+      "1 cup butter",
+      "1 cup brown sugar",
+      "2 cups flour",
+      "1 tsp baking soda",
+      "1/2 tsp salt",
+      "1 cup chocolate chips",
+      "1 tsp vanilla extract",
+      "1 egg"
+    ],
+    "steps": [
+      {
+        "step_number": 1,
+        "description": "Preheat the oven to 180°C (350°F)."
+      },
+      {
+        "step_number": 2,
+        "description": "Cream the butter and brown sugar together in a bowl."
+      },
+      {
+        "step_number": 3,
+        "description": "Beat in the egg and vanilla extract."
+      },
+      {
+        "step_number": 4,
+        "description": "In a separate bowl, mix the flour, baking soda, and salt."
+      },
+      {
+        "step_number": 5,
+        "description": "Gradually add the dry ingredients to the wet ingredients and mix well."
+      },
+      {
+        "step_number": 6,
+        "description": "Fold in the chocolate chips."
+      },
+      {
+        "step_number": 7,
+        "description": "Scoop spoonfuls of dough onto a baking sheet."
+      },
+      {
+        "step_number": 8,
+        "description": "Bake for 10-12 minutes or until golden brown."
+      }
+    ]
+  }
+]
