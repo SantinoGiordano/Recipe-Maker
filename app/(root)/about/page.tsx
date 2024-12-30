@@ -30,6 +30,11 @@ const SearchAnimal: React.FC = () => {
     searchAnimal(value); // Filter animals as you type
   };
 
+  const linkMenu = ()=>{
+    console.log('hello')
+  }
+
+
   return (
     <div>
       <input
@@ -42,7 +47,9 @@ const SearchAnimal: React.FC = () => {
       <ul id="list-holder">
         {filteredFood.map((data, index) => (
           <li key={index}>
-            {data.ingredients}
+            <p onClick={()=>linkMenu()} className='hover:cursor-pointer'>
+            {data.name}
+            </p>
           </li>
         ))}
       </ul>
