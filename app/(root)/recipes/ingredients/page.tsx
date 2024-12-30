@@ -3,19 +3,21 @@ import { useState } from "react";
 import foodData from "@/data/food.json";
 
 interface Recipe {
-  id: string;//changed id to string, change back to number for issues
+  id: string; // changed id to string, change back to number for issues
   name: string;
   ingredients: string[];
   steps: { description: string }[];
 }
-//this code uses Set, to filter out any data that repeats itself, then .flatmap() takes all the reduced arrays and combines them into one
+
 const IngredientFilter: React.FC = () => {
   const [selectedIngredients, setSelectedIngredients] = useState<string[]>([]);
 
+  // Get all unique ingredients from all recipes
   const allIngredients = Array.from(
     new Set(foodData.flatMap((recipe: Recipe) => recipe.ingredients))
   );
-  //.some() checks if one is then returns all as a true
+
+  // Filter recipes based on selected ingredients (only show if all selected ingredients are present)
   const filteredRecipes = foodData.filter((recipe: Recipe) =>
     recipe.ingredients.some((ingredient) =>
       selectedIngredients.includes(ingredient)
@@ -47,7 +49,10 @@ const IngredientFilter: React.FC = () => {
                   onChange={() => handleCheckboxChange(ingredient)}
                   className="h-5 w-5"
                 />
-                <label htmlFor={ingredient} className="text-lg">
+                <label
+                  htmlFor={ingredient}
+                  className={`text-lg ${selectedIngredients.includes(ingredient) ? 'text-yellow-500' : 'text-black'}`}
+                >
                   {ingredient}
                 </label>
               </div>
@@ -68,7 +73,17 @@ const IngredientFilter: React.FC = () => {
                 <h3 className="text-lg font-bold">{recipe.name}</h3>
                 <ul className="list-disc pl-5">
                   {recipe.ingredients.map((ingredient, idx) => (
-                    <li key={idx}>{ingredient}</li>
+                    <li key={idx}>
+                      <span
+                        className={
+                          selectedIngredients.includes(ingredient)
+                            ? "text-yellow-500"
+                            : "text-black"
+                        }
+                      >
+                        {ingredient}
+                      </span>
+                    </li>
                   ))}
                 </ul>
               </li>
