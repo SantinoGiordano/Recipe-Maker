@@ -32,6 +32,11 @@ const IngredientFilter: React.FC = () => {
     );
   };
 
+
+  const handleClearSelection = () => {
+    setSelectedIngredients([]);
+  };
+
   return (
     <div className="container mx-auto p-4">
       <h1 className="text-2xl font-bold mb-4">Filter Recipes by Ingredients</h1>
@@ -51,7 +56,11 @@ const IngredientFilter: React.FC = () => {
                 />
                 <label
                   htmlFor={ingredient}
-                  className={`text-lg ${selectedIngredients.includes(ingredient) ? 'text-yellow-500' : 'text-black'}`}
+                  className={`text-lg ${
+                    selectedIngredients.includes(ingredient)
+                      ? "text-yellow-500"
+                      : "text-black"
+                  }`}
                 >
                   {ingredient}
                 </label>
@@ -92,6 +101,16 @@ const IngredientFilter: React.FC = () => {
         ) : (
           <p>No recipes found with the selected ingredients.</p>
         )}
+      </div>
+
+      {/* Fixed Clear Selection Button */}
+      <div className="fixed bottom-5 right-2 p-5">
+        <button
+          onClick={handleClearSelection}
+          className="px-6 py-3 bg-red-500 text-white rounded-lg hover:bg-red-700 transition"
+        >
+          Clear Selection
+        </button>
       </div>
     </div>
   );
