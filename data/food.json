@@ -232,5 +232,154 @@
         "description": "Bake for 10-12 minutes or until golden brown."
       }
     ]
-  }
+  },
+  {
+    "id": "recipe_7",
+    "name": "Garlic Butter Shrimp Pasta",
+    "ingredients": [
+      "200g spaghetti",
+      "300g shrimp",
+      "4 cloves garlic",
+      "2 tbsp butter",
+      "1 tbsp olive oil",
+      "1 tsp lemon juice",
+      "Salt and pepper to taste",
+      "Fresh parsley",
+      "Parmesan cheese"
+    ],
+    "steps": [
+      {
+        "step_number": 1,
+        "description": "Cook the spaghetti according to package instructions."
+      },
+      {
+        "step_number": 2,
+        "description": "In a skillet, melt the butter with olive oil, and sauté the garlic until fragrant."
+      },
+      {
+        "step_number": 3,
+        "description": "Add the shrimp to the skillet and cook until pink."
+      },
+      {
+        "step_number": 4,
+        "description": "Add the cooked pasta to the skillet, toss with lemon juice, and season with salt and pepper."
+      },
+      {
+        "step_number": 5,
+        "description": "Top with fresh parsley and grated Parmesan cheese before serving."
+      }
+    ]
+  },
+  {
+    "id": "recipe_8",
+    "name": "Beef Tacos",
+    "ingredients": [
+      "300g ground beef",
+      "1 onion",
+      "2 cloves garlic",
+      "1 tsp cumin",
+      "1 tsp chili powder",
+      "Taco seasoning mix",
+      "Corn tortillas",
+      "Lettuce",
+      "Tomato",
+      "Cheddar cheese",
+      "Sour cream"
+    ],
+    "steps": [
+      {
+        "step_number": 1,
+        "description": "Cook the ground beef in a skillet over medium heat until browned."
+      },
+      {
+        "step_number": 2,
+        "description": "Add chopped onion and garlic, cook until softened."
+      },
+      {
+        "step_number": 3,
+        "description": "Add cumin, chili powder, and taco seasoning, stir well."
+      },
+      {
+        "step_number": 4,
+        "description": "Warm the tortillas in a dry pan."
+      },
+      {
+        "step_number": 5,
+        "description": "Assemble tacos by adding the beef mixture to the tortillas, and top with lettuce, tomato, cheese, and sour cream."
+      }
+    ]
+  },
+  {
+    "id": "recipe_9",
+    "name": "Chicken Quesadillas",
+    "ingredients": [
+      "2 chicken breasts",
+      "1 onion",
+      "1 bell pepper",
+      "2 cloves garlic",
+      "Flour tortillas",
+      "Cheddar cheese",
+      "Mozzarella cheese",
+      "Olive oil",
+      "Sour cream",
+      "Salsa"
+    ],
+    "steps": [
+      {
+        "step_number": 1,
+        "description": "Cook the chicken breasts in a skillet until browned and cooked through. Slice into strips."
+      },
+      {
+        "step_number": 2,
+        "description": "Sauté the chopped onion, bell pepper, and garlic in olive oil until soft."
+      },
+      {
+        "step_number": 3,
+        "description": "Place a tortilla on a skillet, add a layer of cheese, followed by the chicken and vegetable mixture. Top with more cheese and place another tortilla on top."
+      },
+      {
+        "step_number": 4,
+        "description": "Cook the quesadilla on both sides until golden brown and the cheese is melted."
+      },
+      {
+        "step_number": 5,
+        "description": "Cut the quesadilla into wedges and serve with sour cream and salsa."
+      }
+    ]
+  },
+  {
+    "id": "recipe_10",
+    "name": "Roasted Vegetable Medley",
+    "ingredients": [
+      "1 cup broccoli florets",
+      "1 bell pepper",
+      "1 zucchini",
+      "2 tbsp olive oil",
+      "1 tsp dried oregano",
+      "1 tsp garlic powder",
+      "Salt and pepper to taste"
+    ],
+    "steps": [
+      {
+        "step_number": 1,
+        "description": "Preheat the oven to 200°C (400°F)."
+      },
+      {
+        "step_number": 2,
+        "description": "Chop the broccoli, bell pepper, and zucchini into bite-sized pieces."
+      },
+      {
+        "step_number": 3,
+        "description": "Toss the vegetables in olive oil, oregano, garlic powder, salt, and pepper."
+      },
+      {
+        "step_number": 4,
+        "description": "Spread the vegetables evenly on a baking sheet."
+      },
+      {
+        "step_number": 5,
+        "description": "Roast for 20-25 minutes, stirring halfway through, until the vegetables are tender and slightly caramelized."
+      }
+    ]
+  }  
 ]
