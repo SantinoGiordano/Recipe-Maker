@@ -26,14 +26,14 @@ const Navbar: React.FC = () => {
             About
           </Link>
 
-          {/* Recipes Dropdown */}
+        
           <div
             className="relative"
             onMouseEnter={() => setDropdownOpen(true)}
             onMouseLeave={() => setDropdownOpen(false)}
           >
             <Link
-              href="/recipes"
+              href="/recipes/full-dish"
               className="font-thin text-2xl text-white hover:text-gray-300"
             >
               Recipes
