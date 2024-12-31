@@ -7,7 +7,7 @@ const Navbar: React.FC = () => {
   const [dropdownOpen, setDropdownOpen] = useState(false);
 
   return (
-    <nav className="bg-blue-600 p-10 fixed w-full z-10">
+    <nav className="bg-green-500 p-10 fixed w-full z-10">
       <div className="mx-auto flex justify-between items-center">
         <Link href="/" className="text-white text-4xl font-bold">
           MySite
@@ -40,16 +40,16 @@ const Navbar: React.FC = () => {
             </Link>
             {/* Dropdown Menu */}
             {dropdownOpen && (
-              <div className="absolute left-0 bg-blue-500 p-2 w-40">
+              <div className="absolute left-0 bg-green-400 p-2 w-40">
                 <Link
                   href="/recipes/full-dish"
-                  className="block text-white text-lg px-4 py-2 hover:bg-blue-600 rounded"
+                  className="block text-white text-lg px-4 py-2 hover:bg-green-500 rounded"
                 >
                   Full Dish
                 </Link>
                 <Link
                   href="/recipes/ingredients"
-                  className="block text-white text-lg px-4 py-2 hover:bg-blue-600 rounded"
+                  className="block text-white text-lg px-4 py-2 hover:bg-green-500 rounded"
                 >
                   Ingredients
                 </Link>
