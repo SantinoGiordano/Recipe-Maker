@@ -1,8 +1,7 @@
 "use client";
 import { useState } from "react";
 import foodData from "@/data/food.json";
-import Search from "../../about/page";
-import SearchBar from "@/app/componets/SearchBar";
+
 
 interface Recipe {
   id: string; // changed id to string, change back to number for issues
