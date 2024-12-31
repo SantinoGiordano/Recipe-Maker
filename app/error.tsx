@@ -21,11 +21,10 @@ export default function ErrorBoundary({error}: {error: Error}) {
             Sorry, we got lost
           </h1>
           <p className="text-lg text-gray-600 mb-6">
-            It seems we can't find the page you're looking for. Please go back to the home page.
+            It seems we can&apos;t find the page you&apos;re looking for. Please go back to the home page.
           </p>
-          <p className="text-sm text-gray-500 mb-6">
-            {/* Access the message from the error object */}
-            {error.message}
+          <p className="text-md text-red-600 mb-6">
+            Error: {error.message}
           </p>
           <button
             onClick={goHome}
