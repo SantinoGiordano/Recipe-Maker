@@ -6,8 +6,8 @@ import food from '@/data/food.json';
 // Define the types for the data items
 interface Food {
   name: string;
-  steps: string;
   ingredients: string;
+  steps: { step_number: number; description: string }[];
 }
 
 const Search: React.FC = () => {
