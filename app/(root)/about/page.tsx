@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import { useRouter } from 'next/navigation'; // Import useRouter
 import food from '@/data/food.json';
+import { error } from 'console';
 
 // Define the types for the data items
 interface Food {
