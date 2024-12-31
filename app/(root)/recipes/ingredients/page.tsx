@@ -1,6 +1,8 @@
 "use client";
 import { useState } from "react";
 import foodData from "@/data/food.json";
+import Search from "../../about/page";
+import SearchBar from "@/app/componets/SearchBar";
 
 interface Recipe {
   id: string; // changed id to string, change back to number for issues
@@ -31,13 +33,18 @@ const IngredientFilter: React.FC = () => {
         : [...prev, ingredient]
     );
   };
-
-
   const handleClearSelection = () => {
     setSelectedIngredients([]);
   };
 
   return (
+  <>
+    <div
+    className="bg-panSearing p-5  bg-cover bg-center bg-fixed"
+    style={{
+      backgroundImage: "url('/cookingPot.jpg')", // Ensure the correct path to your image
+    }}
+    >
     <div className="container mx-auto p-4">
       <h1 className="text-2xl font-bold mb-4">Filter Recipes by Ingredients</h1>
 
@@ -99,7 +106,7 @@ const IngredientFilter: React.FC = () => {
             ))}
           </ul>
         ) : (
-          <p>No recipes found with the selected ingredients.</p>
+                                                   <p>No recipes found with the selected ingredients.</p>
         )}
       </div>
 
@@ -113,6 +120,8 @@ const IngredientFilter: React.FC = () => {
         </button>
       </div>
     </div>
+</div>
+</>
   );
 };
 
