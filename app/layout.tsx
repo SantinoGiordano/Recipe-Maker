@@ -30,7 +30,7 @@ export default function RootLayout({
       >
       <div className="bg-slate-200">
         <Nav/>
-        <div className="p-14">
+        <div className="p-12">
         </div>
         {children}
         </div>
