@@ -6,9 +6,10 @@ export async function POST(request:Request){
     const dish = await request.json()
     const newFood = {
         id:food.length +1,
-        name: dish.name
+        name: dish.name,
     }
-    food.push(newFood)
+    food.push(newFood) 
+    console.log("there is a new item")
     
     return new Response(JSON.stringify(newFood), {
         status: 201,
