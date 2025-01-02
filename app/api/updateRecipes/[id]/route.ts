@@ -3,7 +3,7 @@ import foods from '@/data/food.json'
 
 export async function GET( 
     _request: Request, 
-    {params}:{id:string}
+    {params} : {params:{id:string}}
 ){
     const food = foods.find( 
         (food) => food.id === parseInt(params.id)
@@ -14,3 +14,10 @@ export async function GET(
             'Content-Type': 'application/json',
         },
     })}
+
+    // export async function PATCH(
+    //     _request:Request,
+    //     {params} : {params:{id:string}}
+    // ){
+    //     return new Response()
+    // }
