@@ -1,6 +1,6 @@
 [
   {
-    "id": "1",
+    "id": 1,
     "name": "Spaghetti Bolognese",
     "ingredients": [
       "200g spaghetti",
@@ -74,7 +74,7 @@
     ]
   },
   {
-    "id": "3",
+    "id": 3,
     "name": "Chicken Curry",
     "ingredients": [
       "500g chicken breast",
@@ -109,7 +109,7 @@
     ]
   },
   {
-    "id": "4",
+    "id": 4,
     "name": "Margarita Pizza",
     "ingredients": [
       "1 pizza dough",
@@ -147,7 +147,7 @@
     ]
   },
   {
-    "id": "5",
+    "id": 5,
     "name": "Vegetable Stir Fry",
     "ingredients": [
       "1 cup broccoli florets",
@@ -186,7 +186,7 @@
     ]
   },
   {
-    "id": "6",
+    "id": 6,
     "name": "Chocolate Chip Cookies",
     "ingredients": [
       "1 cup butter",
@@ -234,7 +234,7 @@
     ]
   },
   {
-    "id": "7",
+    "id": 7,
     "name": "Garlic Butter Shrimp Pasta",
     "ingredients": [
       "200g spaghetti",
@@ -271,7 +271,7 @@
     ]
   },
   {
-    "id": "8",
+    "id": 8,
     "name": "Beef Tacos",
     "ingredients": [
       "300g ground beef",
@@ -310,7 +310,7 @@
     ]
   },
   {
-    "id": "9",
+    "id": 9,
     "name": "Chicken Quesadillas",
     "ingredients": [
       "2 chicken breasts",
@@ -348,7 +348,7 @@
     ]
   },
   {
-    "id": "10",
+    "id": 10,
     "name": "Roasted Vegetable Medley",
     "ingredients": [
       "1 cup broccoli florets",
