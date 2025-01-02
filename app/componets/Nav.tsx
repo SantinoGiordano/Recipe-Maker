@@ -7,7 +7,7 @@ const Navbar: React.FC = () => {
   const [dropdownOpen, setDropdownOpen] = useState(false);
 
   return (
-    <nav className="bg-green-500 p-10 fixed w-full z-10">
+    <nav className="bg-green-500 p-8 fixed w-full z-10">
       <div className="mx-auto flex justify-between items-center">
         <Link href="/" className="text-white text-4xl font-bold">
           MySite
